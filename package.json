@@ -22,9 +22,11 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.7.2",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vue-sonner": "^1.3.0"
   },
   "devDependencies": {
-    "shadcn-nuxt": "^0.11.3"
+    "shadcn-nuxt": "^0.11.3",
+    "tailwind-dracula": "^1.1.0"
   }
 }
