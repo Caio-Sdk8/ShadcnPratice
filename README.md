@@ -4,7 +4,14 @@ Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduct
 
 ## Setup
 
-Make sure to install dependencies:
+Clone o repositório:
+
+```bash
+# npm
+git clone https://github.com/Caio-Sdk8/ShadcnPratice.git
+```
+
+Instale as dependências:
 
 ```bash
 # npm
@@ -19,57 +26,23 @@ yarn install
 # bun
 bun install
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Rode o sistema:
 
 ```bash
 # npm
 npm run dev
 
 # pnpm
-pnpm dev
+pnpm run dev
 
 # yarn
-yarn dev
+yarn run dev
 
 # bun
 bun run dev
 ```
 
-## Production
+## Sobre o desenvolvimento
+Ambas as telas foram criadas usando os componentes disponibilizados pelo shadcn, a primeira tela foi feita apenas a implementação dessa lib com o thema dracula, e pode ser encontrada na rota padrão do sistema, já a segunda tela, onde foi feita a validação com VeeValidade em conjunto com shadcn, e pode ser encontrada na rota "http://localhost:3000/ShadcnYup", foi feita com base na documentação de ambas as bibliotecas, utilizando a abordagem yup, pois a mesma se mostrou mais fácil de fazer a validação da confirmação de senha, além de que conforme indicado, tem uma menor ocorrência de bugs. <br/>
+Apesar de ter feito a integração das libs dessa forma, acredito que exista uma forma melhor para fazer isso e pretendo melhorar o código posteriormente.
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
